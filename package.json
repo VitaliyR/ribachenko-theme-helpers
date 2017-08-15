@@ -1,0 +1,16 @@
+{
+  "name": "ribachenko-theme-helpers",
+  "version": "0.0.1",
+  "dependencies": {
+    "fs-extra": "^4.0.1",
+    "ghost-app": "0.0.2",
+    "request-promise": "^4.2.1"
+  },
+  "ghost": {
+    "permissions": {
+      "helpers": [
+        "last_checkin"
+      ]
+    }
+  }
+}
